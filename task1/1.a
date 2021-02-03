@@ -1,0 +1,4 @@
+select p.Name'Property Name', p.Id 'Property ID'
+from Property p, OwnerProperty OP
+where P.Id=OP.PropertyId
+AND OP.OwnerId='1426';
